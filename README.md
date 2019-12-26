@@ -20,6 +20,8 @@ self.SA_modules.append(
   )
 ```
 ## Results  
-ModelNet40 acc: 0.915316, I use the 12 vote to achieve this. Withour voting, the test acc=0.895462.
+ModelNet40 acc: **0.915316**, I use the 12 vote to achieve this. Withour voting, the test acc=**0.895462**.  
+In order to compare the SRN with pointnet++, I remove the SRNModule, the cls result is **0.915316**(with voting) and **0.891005**(w/o voting).  
+So the result is not good, the SRN is not useful? or something is wrong in code. Sad T_T
 ## reference
 > Yueqi Duan, Yu Zheng, Jiwen Lu, Jie Zhou, and Qi Tian, Structural Relational Reasoning of Point Clouds, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
