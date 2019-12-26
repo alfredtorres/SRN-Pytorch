@@ -1,5 +1,5 @@
 # SRN-Pytorch
-A Pytorch Implementation of **Structural Relational Reasoning of Point Clouds**. The official reprositity is [here](https://github.com/duanyq14/SRN).  
+A Pytorch Implementation of **Structural Relational Reasoning of Point Clouds**. The official reprositity is [duanyq14's work](https://github.com/duanyq14/SRN).  
 This project is heavily relied on [Erik's work](https://github.com/erikwijmans/Pointnet2_PyTorch). You should follow Erik's instruction to build the customed opeartions using the following command. 
 ```
 python -m python setup.py build_ext --inplace
